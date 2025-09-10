@@ -1,0 +1,10 @@
+I=1
+man=1
+woman=7
+people=I+man+woman
+bags=woman*7
+cats=bags*7
+kitten=cats*7
+animals=cats+kitten
+ans=people+animals
+print(ans)
