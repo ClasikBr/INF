@@ -1,0 +1,9 @@
+N=int(input())
+C=int(input())
+X=int(input())
+num_entries=N*C
+page=(X-1)//num_entries+1
+pos_page=(X-1)%num_entries
+column=pos_page//N+1
+line=pos_page%N+1
+print('страница',page,'столбец',column,'строка',line)
